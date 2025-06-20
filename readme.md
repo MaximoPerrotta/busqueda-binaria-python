@@ -1,3 +1,8 @@
+Trabajo Integrador Final
+Maximo Perrotta-Comision 19
+
+---
+
 #  Búsqueda Binaria en Python
 
 Este proyecto implementa y compara distintas técnicas de búsqueda en listas ordenadas utilizando Python. El objetivo principal es mostrar la eficiencia de la **búsqueda binaria** (en versiones iterativa y recursiva) frente a la **búsqueda lineal**, aplicando conceptos fundamentales de programación como funciones, estructuras repetitivas, condicionales y recursividad.
@@ -8,7 +13,6 @@ Este proyecto implementa y compara distintas técnicas de búsqueda en listas or
 
 - `busquedas.py`: código principal con todas las funciones y pruebas
 - `README.md`: este archivo con información del proyecto
-- (Opcional) Capturas, documentación, videos u otros recursos complementarios
 
 ---
 
@@ -44,3 +48,6 @@ Pasos realizados: 6
 
 ```
 Reflexión personal: Este proyecto me permitió comprender con claridad la diferencia entre métodos de búsqueda, y especialmente la eficiencia de la búsqueda binaria en listas ordenadas. Aprendí a implementar algoritmos iterativos y recursivos, y a comparar su rendimiento usando contadores de pasos. También reforcé conceptos fundamentales como estructuras de control, listas, funciones y recursión.
+
+---
+Enlace del video: https://youtu.be/j1W3e-x39hE
