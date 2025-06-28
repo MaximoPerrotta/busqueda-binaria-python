@@ -1,53 +1,55 @@
-Trabajo Integrador Final
-Maximo Perrotta-Comision 19
+# Trabajo Integrador - Programación I
+## Algoritmos de Búsqueda Binaria y Ordenamiento en Python
+Este proyecto fue desarrollado como parte del trabajo integrador final de la materia Programación I (Tecnicatura Universitaria en Programación - UTN), con el objetivo de aplicar y analizar conceptos fundamentales de algoritmos de búsqueda y ordenamiento.
 
----
+### Descripción del proyecto
+El programa implementa:
 
-#  Búsqueda Binaria en Python
+* Bubble Sort y Insertion Sort para ordenar listas de números enteros.
 
-Este proyecto implementa y compara distintas técnicas de búsqueda en listas ordenadas utilizando Python. El objetivo principal es mostrar la eficiencia de la **búsqueda binaria** (en versiones iterativa y recursiva) frente a la **búsqueda lineal**, aplicando conceptos fundamentales de programación como funciones, estructuras repetitivas, condicionales y recursividad.
+* Búsqueda Binaria para localizar elementos dentro de listas previamente ordenadas.
 
----
+* Medición de tiempos con el módulo time para observar el rendimiento en listas pequeñas y grandes.
 
-## Contenido del repositorio
+Esto permite comparar la eficiencia de cada algoritmo y comprender cómo el tamaño y estado de los datos influye directamente en la elección del método.
 
-- `busquedas.py`: código principal con todas las funciones y pruebas
-- `README.md`: este archivo con información del proyecto
+### Tecnologías utilizadas
+Python 3
 
----
+Librerías estándar: random y time
 
-## Tecnologías y conceptos usados
+Editor VSCode para desarrollo
 
-- Python 3.x
-- Listas ordenadas
-- Funciones definidas por el usuario
-- Búsqueda lineal
-- Búsqueda binaria (iterativa y recursiva)
-- Condicionales (`if`)
-- Bucles (`for`, `while`)
-- Recursividad
-- Contador de pasos para analizar eficiencia
+Terminal Bash para ejecución
 
 
-##  Ejemplo de salida
+### Verás en la terminal:
 
-```bash
-Ingrese el número que desea buscar: 42
+* Las listas originales desordenadas.
 
---- Búsqueda Lineal ---
-Resultado: Encontrado en índice 37
-Pasos realizados: 38
+* Ordenamientos aplicados con Bubble e Insertion, junto con tiempos de ejecución.
 
---- Búsqueda Binaria Iterativa ---
-Resultado: Encontrado en índice 37
-Pasos realizados: 6
+* Resultados de búsqueda binaria y tiempos.
 
---- Búsqueda Binaria Recursiva ---
-Resultado: Encontrado en índice 37
-Pasos realizados: 6
+* Comparación final con listas grandes de 5000 elementos.
 
-```
-Reflexión personal: Este proyecto me permitió comprender con claridad la diferencia entre métodos de búsqueda, y especialmente la eficiencia de la búsqueda binaria en listas ordenadas. Aprendí a implementar algoritmos iterativos y recursivos, y a comparar su rendimiento usando contadores de pasos. También reforcé conceptos fundamentales como estructuras de control, listas, funciones y recursión.
+### Reflexiones y aprendizajes
+Este proyecto permitió:
 
----
-Enlace del video: https://youtu.be/j1W3e-x39hE
+* Comprender cómo los algoritmos de ordenamiento son un paso indispensable para métodos de búsqueda avanzados como la búsqueda binaria.
+
+* Visualizar la diferencia de rendimiento entre algoritmos O(n²) (Bubble, Insertion) y O(log n) (búsqueda binaria).
+
+* Practicar la modularización de código en Python, la medición de tiempos y el análisis crítico del comportamiento algorítmico según el tamaño de los datos.
+
+### Licencia
+Uso académico. Libre distribución con fines educativos.
+
+### Autor
+Máximo Perrotta – Trabajo final para Programación I - UTN.
+
+### Anexos:
+
+Link Repositorio: https://github.com/MaximoPerrotta/busqueda-binaria-python
+
+Link video YouTube: https://youtu.be/goZNA5wmJHc
